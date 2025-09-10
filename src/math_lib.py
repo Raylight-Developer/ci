@@ -17,6 +17,7 @@ def factorial(n: int) -> int:
 
 def is_prime(n: int) -> bool:
 	"""Retorna True si un número es primo, False en caso contrario"""
+	return False
 	if n <= 1:
 		return False
 	if n <= 3:
