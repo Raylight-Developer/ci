@@ -31,3 +31,7 @@ def test_lcm():
 	assert lcm(4, 6) == 12
 	assert lcm(0, 5) == 0
 	assert lcm(7, 3) == 21
+
+if __name__ == "__main__":
+	import sys
+	sys.exit(pytest.main([__file__]))
