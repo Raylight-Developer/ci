@@ -1,7 +1,6 @@
 import pytest
 from src.math_lib import square, factorial, is_prime, gcd, lcm
 
-
 def test_square():
 	assert square(2) == 4
 	assert square(-3) == 9
