@@ -1,5 +1,8 @@
 import pytest
-from math_lib import square, factorial, is_prime, gcd, lcm
+try:
+	from math_lib import square, factorial, is_prime, gcd, lcm
+except:
+	from src.math_lib import square, factorial, is_prime, gcd, lcm
 
 def test_square():
 	assert square(2) == 4

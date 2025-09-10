@@ -1,4 +1,4 @@
-from math_lib import square, factorial, is_prime, gcd, lcm
+from src.math_lib import square, factorial, is_prime, gcd, lcm
 
 def main():
 	print("=== Demostración de librería matemática ===")
